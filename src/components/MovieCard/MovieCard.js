@@ -7,7 +7,7 @@ const MovieCard = ({ title, vote_average, overview, poster_path }) => {
       <img src={`${img_path}/${poster_path}`} alt={`${title}`} />
       <div className="movie-info">
         <h3>{`${title}`}</h3>
-        <span>{`${vote_average}`}</span>
+        <span className="good">{`${vote_average}`}</span>
       </div>
 
       <div className="movie-overview">
