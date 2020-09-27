@@ -5,6 +5,7 @@ import "./App-Style.scss";
 
 import HeaderLogo from './assets/logo.svg';
 import MovieCard from "./components/MovieCard/MovieCard";
+import Footer from './components/Footer/Footer';
 
 const CallPopularAPI =
   "https://api.themoviedb.org/3/trending/all/week?api_key=229a6a0f891df5bf1176a4668af885c6";
@@ -71,6 +72,7 @@ useEffect(() => {
           ></MovieCard>
         ))}
       </div>
+      <Footer/>
     </div>
   );
 }
