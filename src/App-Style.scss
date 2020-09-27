@@ -1,4 +1,21 @@
 .movie-container {
     display: flex;
     flex-wrap: wrap;
-  }
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    background-color: #273c75;
+    padding: 1rem;
+    justify-content: space-between;
+    .search {
+       font-size: inherit;
+        padding: 0.5rem 0.2rem;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .search:focus {
+        outline: 0;
+    }
+}

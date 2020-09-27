@@ -11,3 +11,8 @@ body {
 code {
   font-family: "Poppins", sans-serif;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+}

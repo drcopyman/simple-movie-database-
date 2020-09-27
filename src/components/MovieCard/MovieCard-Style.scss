@@ -18,12 +18,12 @@
             margin: 0;
             color: #fff;
         }
-        span {
+        .tag {
             background-color: #0c2461;
             width: 40px;
             border-radius: 5px;
             text-align: center;
-            color: #009432;
+            
             .good {
                 color: #009432;
             }
@@ -48,4 +48,14 @@
     &:hover .movie-overview {
         transform: translateY(0%);
     }
+}
+
+.good {
+    color: #009432;
+}
+.normal {
+    color: #F79F1F;
+}
+.bad {
+    color: #EA2027;
 }
